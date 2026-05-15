@@ -9,9 +9,9 @@ The data covers five U.S. states (California, Florida, New York, Pennsylvania, T
 ```
 healthcare-lakehouse-dashboard/
 ├── notebooks/              Databricks notebooks for each lakehouse layer
-│   ├── Bronze_Layer.ipynb      Raw ingestion + validation
-│   ├── Silver_Layer.ipynb      Cleaning, deduplication, scoping
-│   └── Gold_Layer.ipynb        Star schema with surrogate keys
+│   ├── 1_Bronze_Layer.ipynb      Raw ingestion + validation
+│   ├── 2_Silver_Layer.ipynb      Cleaning, deduplication, scoping
+│   └── 3_Gold_Layer.ipynb        Star schema with surrogate keys
 ├── dashboard/              Power BI report screenshots and link to .pbix
 ├── docs/                   Architecture, data model, validation notes
 ├── data/sample/            Small Synthea sample for inspection
