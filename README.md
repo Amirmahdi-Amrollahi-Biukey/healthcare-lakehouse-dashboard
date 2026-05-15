@@ -12,7 +12,7 @@ healthcare-lakehouse-dashboard/
 │   ├── Bronze_Layer.ipynb      Raw ingestion + validation
 │   ├── Silver_Layer.ipynb      Cleaning, deduplication, scoping
 │   └── Gold_Layer.ipynb        Star schema with surrogate keys
-├── dashboard/              Power BI report (.pbix) and screenshots
+├── dashboard/              Power BI report screenshots and link to .pbix
 ├── docs/                   Architecture, data model, validation notes
 ├── data/sample/            Small Synthea sample for inspection
 └── README.md
@@ -56,8 +56,7 @@ A four-page Power BI report built for the Decision Support Manager persona (repo
 
 All time-bounded measures use relative-date DAX (`TODAY()` anchored) so the report stays current as data refreshes.
 
-The .pbix file is in `dashboard/`. Screenshots of each page are in `dashboard/screenshots/`.
-
+**Download the .pbix**: [Leadership_Dashboard.pbix on Google Drive](https://drive.google.com/file/d/17neA8vSktP5mFrtYOyvoEtV5xuenY1R6/view?usp=sharing) (43 MB). Hosted on Drive rather than in the repo because it's a binary file that doesn't diff well in git. Screenshots of each page are in `dashboard/screenshots/`.
 ## Running it yourself
 
 If you want to reproduce the pipeline:
