@@ -1,6 +1,6 @@
 # Healthcare Lakehouse and Decision Support Dashboard
 
-End-to-end data project on synthetic healthcare records. Raw Synthea CSVs are ingested into a Databricks lakehouse with bronze, silver, and gold layers, modeled as a star schema, and surfaced through a Power BI dashboard built for a Decision Support Manager.
+Data project on synthetic healthcare records. Raw Synthea CSVs are ingested into a Databricks lakehouse with bronze, silver, and gold layers, modeled as a star schema, and surfaced through a Power BI dashboard built for a Decision Support Manager.
 
 The data covers five U.S. states (California, Florida, New York, Pennsylvania, Texas) and roughly 22,000 patients across a 2021-2025 window.
 
@@ -68,6 +68,6 @@ If you want to reproduce the pipeline:
 
 ## About this project
 
-This was built as a portfolio piece to work through a complete lakehouse-to-dashboard project end to end. The data is synthetic (Synthea), so any numbers shown should be read as illustrative rather than clinical. The architecture, validation patterns, and modeling choices are the parts I'd defend in a code review.
+This was built as a portfolio piece to work through a complete lakehouse-to-dashboard project. The data is synthetic (Synthea), so any numbers shown should be read as illustrative rather than clinical. The architecture, validation patterns, and modeling choices are the parts I'd defend in a code review.
 
 Comments and suggestions are welcome.
