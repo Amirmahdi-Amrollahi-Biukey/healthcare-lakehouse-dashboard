@@ -2,7 +2,7 @@
 
 Data project on synthetic healthcare records. Raw Synthea CSVs are ingested into a Databricks lakehouse with bronze, silver, and gold layers, modeled as a star schema, and surfaced through a Power BI dashboard built for a Decision Support Manager.
 
-The data covers five U.S. states (California, Florida, New York, Pennsylvania, Texas) and roughly 22,000 patients across a 2021-2025 window.
+The data covers five U.S. states (California, Florida, New York, Pennsylvania, Texas) and roughly 20,000 patients across a 2021-2025 window.
 
 ## What's in this repo
 
